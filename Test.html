@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Wichtige Commands bis jetzt: <head> (und </head> für Ende),<body>,<div>, eventl. mit ids als Characterisierungen, <p> für Textblöcke, <br> für Zeilenumbrüche,
+<a> für Links, iVm., <href> für verweis auf diese Links,<h1-6> für Überschriften, <ul> und <ol> als Listen, <img> und <video> funktionieren mit src, nicht href.
+ -->
+<head>
+    <meta charset="UTF-8">
+    <title> Brown Bears </title>
+</head>
+<body>
+<!-- Querverweise auf die andere (lokale) Seiten, müssen aber auch als html im Projekt vorliegen -->
+<a href="./index.html">Contact</a>
+<h1>The Brown Bear</h1>
+<!-- Querverweise auf die Seite (mittels der id, auf die per href verwiesen werden kann -->
+<ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#habitat">Habitat</a></li>
+    <li><a href="#media">Media</a></li>
+</ul>
+<!-- Einführung -->
+<div id="introduction">
+    <h2>About Brown Bears</h2>
+    <p>“The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br><br> There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.”</p>
+    <!-- Querverweise auf eine Fremdseite, auf der Infos zu finden sind. target="_blank" als Extrakommando schreibt Öffnung im neuen Tab vor.  -->
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"> Learn More </a>
+    <h3>Species</h3>
+    <ul>
+        <li>Arctos</li>
+        <li>Collarus</li>
+        <li>Horribilis</li>
+        <li>Nelsoni (extinct)</li>
+    </ul>
+    <h3>Features</h3>
+    <p>“Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.”</p>
+</div>
+<!-- Weitere Infos über Lebensraum -->
+<div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <ol>
+        <li>Russia</li>
+        <li>United States</li>
+        <li>Canada</li>
+    </ol>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <p>“Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.”</p>
+</div>
+<!-- Weitere Infos über mediale Behandlung und Bilder&Videos, alt="" hier optional, gibt Informationen falls Medien nicht geladen werden können, für SEO relevant -->
+<div id= "media">
+    <h2>Media</h2>
+    <img src="https://bilder.t-online.de/b/83/86/49/66/id_83864966/920/c_raw/tid_da/ein-braunbaer-die-wahrscheinlichkeit-einer-unangenehmen-begegnung-mit-einem-baeren-ist-experten-zufolge-ausgesprochen-gering-.jpg" alt="a very curious brown bear"/>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"><img src="https://img.br.de/f11ebb44-59fa-426d-aeb8-6fe106cd6caf.jpeg?q=80&rect=0,359,5121,2879&w=1600&h=900" alt="brown bear" /></a>
+    <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="640" height="480" controls>
+        Video not supported
+    </video>
+</div>
+</body>
+</html>
