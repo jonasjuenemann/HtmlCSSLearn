@@ -12,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -32,6 +32,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
+  <component name="RunManager">
+    <configuration name="Create.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Lernen/Create.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Create.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -47,6 +57,7 @@
       <workItem from="1584057837935" duration="6410000" />
       <workItem from="1584112762152" duration="3683000" />
       <workItem from="1584151266380" duration="1437000" />
+      <workItem from="1584548411729" duration="175000" />
     </task>
     <servers />
   </component>
