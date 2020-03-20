@@ -8,7 +8,7 @@
 </head>
 <body>
 <section id="overlay">
-    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo" width="640" height="480">
     <hr>
     <form>
         <h1>Create a burger!</h1>
@@ -30,7 +30,6 @@
             <span>Well-Done</span>
         </section>
         <hr>
-
         <section class="toppings">
             <span>What toppings would you like?</span>
             <br>
@@ -46,7 +45,45 @@
             <!--Add your code below for the third checkbox-->
             <input id="tomato" name="topping" type="checkbox" value="tomato">
         </section>
-
+        <hr>
+        <section class="cheesy">
+            <span>Would you like to add cheese?</span>
+            <br>
+            <input type="radio" name="cheese" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="cheese" id="no" value="yes">
+            <label for="no">No</label>
+        </section>
+        <hr>
+        <section class="bun-type">
+            <label for="bun">What type of bun would you like?</label>
+            <select name="bun" id="bun">
+                <option value="sesame">Sesame</option>
+                <option value="potatoe">Potato</option>
+                <option value="pretzel">Pretzel</option>
+            </select>
+        </section>
+        <hr>
+        <section class="sauce-selection">
+            <label for="sauce">What type of sauce would you like?</label>
+            <input list="sauces" id="sauce" name="sauce">
+            <datalist id="sauces">
+                <option value="ketchup"></option>
+                <option value="mayo"></option>
+                <option value="mustard"></option>
+            </datalist>
+        </section>
+        <hr>
+        <section class="extra-info">
+            <label for="extra">Anything else you want to add?</label>
+            <br>
+            <textarea id="extra" name="extra" rows="3" cols="40">Default</textarea>
+        </section>
+        <hr>
+        <section class="submission">
+            <!--Add your code below-->
+            <input type="submit" value="Submit">
+        </section>
     </form>
 </section>
 </body>
