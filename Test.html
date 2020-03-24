@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Wichtige Commands bis jetzt: <head> (und </head> für Ende),<body>,<div>, eventl. mit ids als Characterisierungen, <p> für Textblöcke, <br> für Zeilenumbrüche,
-<a> für Links, iVm., <href> für verweis auf diese Links,<h1-6> für Überschriften, <ul> und <ol> als Listen, <img> und <video> funktionieren mit src, nicht href,
-<hr> zum Einfügen einer Horiontalen Linie, ähnlich <br>.
-Außerdem: Semantic Html (ersetzt an vielen Stellen die <div>: header, nav, main, footer, section, article, aside
+<a> für Links, iVm., <href> für verweis auf diese Links,<h1-6> für Überschriften, <ul> und <ol> als
+Außerdem: Semantic Html (ersetzt an vielen Stellen die <div>: header, nav, main, fo Listen, <img> und <video> funktionieren mit src, nicht href,
+<hr> zum Einfügen einer Horiontalen Linie, ähnlich <br>.oter, section, article, aside, figure, figcaption, audio
  -->
 <head>
     <meta charset="UTF-8">
@@ -70,7 +70,15 @@ Außerdem: Semantic Html (ersetzt an vielen Stellen die <div>: header, nav, main
             <p>“Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland,
                 France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.”</p>
         </article>
-        >
+        <figure>
+            <img src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/dogimage.jpeg" alt="dog">
+            <figcaption>This picture shows a dog.</figcaption>
+        </figure>
+        <audio autoplay controls>
+            <source src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/dogBarking.mp3"
+                    type="audio/mp3">
+        </audio>
+
     </div>
     <!-- Weitere Infos über mediale Behandlung und Bilder&Videos, alt="" hier optional, gibt Informationen falls Medien nicht geladen werden können, für SEO relevant -->
     <div id="media">
