@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3966d18e-faa6-4448-9471-e79962ad1a1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/TableTest.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CSS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager">
@@ -61,6 +63,8 @@
       <workItem from="1584658468088" duration="1210000" />
       <workItem from="1584723296377" duration="1836000" />
       <workItem from="1585051194526" duration="5147000" />
+      <workItem from="1586350013834" duration="2849000" />
+      <workItem from="1586518820736" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1585053625869</created>
@@ -84,9 +88,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="114" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585053625306" />
-    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1585074423744">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1586518833456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="261" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585074423744" />
+    <state x="739" y="261" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586518833456" />
   </component>
 </project>
