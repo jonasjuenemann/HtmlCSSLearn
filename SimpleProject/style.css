@@ -1,0 +1,61 @@
+body {
+    background: #EEE;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../Bilder/pattern.jpg");
+    margin: 5px;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.x {
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+img {
+    width: 300px;
+}
+
+.brushes {
+    background-color: mediumspringgreen;
+
+}
+
+.frames {
+    background-color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
+
+.sell {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+}

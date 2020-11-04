@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3966d18e-faa6-4448-9471-e79962ad1a1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lernen.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,8 +32,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PersonalPortfolio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JonasJuenemann\Documents\GitHub\Lernen\FlexboxProjects\Tea Cozy\Solution" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JonasJuenemann\Documents\GitHub\Lernen\FlexboxProjects" />
+      <recent name="C:\Users\JonasJuenemann\Documents\GitHub\Lernen" />
+      <recent name="C:\Users\JonasJuenemann\Documents\GitHub\Lernen\Project" />
+      <recent name="C:\Users\JonasJuenemann\Documents\GitHub\Lernen\Bilder" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="Create.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Lernen/Create.html" useBuiltInWebServerPort="true">
@@ -74,6 +87,23 @@
       <workItem from="1590009768553" duration="176000" />
       <workItem from="1590094992725" duration="1882000" />
       <workItem from="1590317468680" duration="3382000" />
+      <workItem from="1594402465702" duration="33000" />
+      <workItem from="1602888144716" duration="8084000" />
+      <workItem from="1602938276972" duration="3556000" />
+      <workItem from="1602973094866" duration="6255000" />
+      <workItem from="1603029260773" duration="10988000" />
+      <workItem from="1603061638803" duration="7837000" />
+      <workItem from="1603070702296" duration="622000" />
+      <workItem from="1603117965455" duration="8261000" />
+      <workItem from="1603129352205" duration="197000" />
+      <workItem from="1603310243332" duration="11000" />
+      <workItem from="1603417655183" duration="506000" />
+      <workItem from="1603477013218" duration="21000" />
+      <workItem from="1603502434472" duration="105000" />
+      <workItem from="1603637775080" duration="245000" />
+      <workItem from="1603638034046" duration="2984000" />
+      <workItem from="1603756573845" duration="3350000" />
+      <workItem from="1603809707242" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1585053625869</created>
@@ -93,14 +123,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1585053625306">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603809736438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585053625306" />
-    <state x="-1181" y="261" key="FileChooserDialogImpl" timestamp="1590344107477">
+    <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1603477032152" />
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603809736438" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1603638968490">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603638968490" />
+    <state x="646" y="184" width="1573" height="1027" key="dock-window-1" timestamp="1603063976459">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="646" y="184" width="1573" height="1027" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603063976459" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603124724582">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1181" y="261" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1590344107476" />
-    <state x="739" y="261" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590009943489" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1603124724582" />
   </component>
 </project>

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-size: 1.5rem;
+    min-height: 10vh;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2d2d2d;
+    width: 100%;
+    position: fixed;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding: 0 5rem;
+
+}
+
+.banner {
+    display:flex;
+    min-height: 100vh;
+    background: url("../Bilder/pattern.jpg");
+    background-size: cover;
+}
+
+.logo {
+    font-family: "Roboto", cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+    padding: 0 5rem;
+}
+
+.banner h1 {
+    font-size: 5rem;
+    padding: 0;
+    color: #2d2d2d;
+    position: absolute; /*Koennen wir rumbewegen soviel wir wollen*/
+    top: 50%;
+    left: 50%;
+    /* not really centered */
+    transform: translate(-50%, -30%);
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #2d2d2d;
+}
+
+.post {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 65%;
+    color: white;
+}
+
+.post h2 {
+    font-size: 1.875rem;
+    padding-top: 2rem;
+
+}
+
+.post h3 {
+    font-size: 1.125em;
+    color: #999999;
+}
+
+.post .opening-line {
+    margin-top: 4.1875rem;
+    margin-bottom: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.post p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+.post .image-container {
+    width: 100%;
+}
+
+.images .image-container {
+    display: inline-block;
+    width: 50%;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    border-top: 1px solid #999999;
+    font-size:0.75rem;
+    opacity: 1;
+}
