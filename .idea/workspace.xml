@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3966d18e-faa6-4448-9471-e79962ad1a1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lernen.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PersonalPortfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScriptProjects" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
@@ -104,6 +102,9 @@
       <workItem from="1603638034046" duration="2984000" />
       <workItem from="1603756573845" duration="3350000" />
       <workItem from="1603809707242" duration="31000" />
+      <workItem from="1604668391306" duration="262000" />
+      <workItem from="1604668775822" duration="11142000" />
+      <workItem from="1604767123838" duration="1978000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1585053625869</created>
@@ -123,11 +124,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603809736438">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604768051688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1603477032152" />
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603809736438" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604768051688" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1603638968490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
