@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link rel="stylesheet" href="resources/style.css">
 </head>
 <body>
 <header>
-    <nav>
+    <nav class="desktop">
         <div class="logo">
-            <a href="index.html" class="desktop header"><img src="./resources/images/ic-logo.svg" class="desktop logo-text" alt="">Colmar<span class="header-gray">Academy</span></a>
+            <a href="index.html" class="desktop header"><img src="./resources/images/ic-logo.svg"
+                                                             class="desktop logo-text" alt="">Colmar<span
+                    class="header-gray">Academy</span></a>
         </div>
         <ul class="nav-links">
             <li><a href="#">On Campus</a></li>
             <li><a href="#">Online</a></li>
             <li><a href="#">For Companies</a></li>
             <li><a href="#">Sign In</a></li>
+        </ul>
+    </nav>
+    <nav class="mobile">
+        <ul>
+            <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
+            <li><a href="#"><img src="./resources/images/ic-on-campus.svg"></a></li>
+            <li><a href="#"><img src="./resources/images/ic-online.svg"></a></li>
+            <li><a href="#"><img src="./resources/images/ic-login.svg"></a></li>
         </ul>
     </nav>
 </header>
@@ -26,41 +37,162 @@
         </div>
         <div class="banner-text">
             <h1>Learn something new everyday</h1>
-            <p> Start Learning today like a real pro</p>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur error eum rerum.</h4>
             <a href="#" class="button">Start here</a>
         </div>
     </div>
     <div class="firstrow">
         <div class="first-container">
+            <img src="resources/images/information-main.jpg" class="fr-big-picture" alt="">
+            <h1>It doesnt hurt to keep practicing</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolor dolorem incidunt maxime minus
+                necessitatibus nulla numquam, placeat quos reiciendis reprehenderit sed sequi tenetur. Aliquid amet
+                architecto corporis cumque, cupiditate deleniti deserunt doloremque eveniet.</p>
+            <p id="quoter">Emanuel, Sr Strategist at Hiring.com</p>
         </div>
-        <div class="">
+        <div class="second-container">
+            <div class="right-box">
+                <div class="image-container">
+                    <img src="resources/images/information-orientation.jpg" class="pic" alt="">
+                </div>
+                <div class="text-container">
+                    <h2>Orientation date</h2>
+                    <p>Tue 10/11 &/ Wed 10/12: 8am-3pm</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="right-box">
+                <div class="image-container">
+                    <img src="resources/images/information-campus.jpg" class="pic" alt="">
+                </div>
+                <div class="text-container">
+                    <h2>Our campus</h2>
+                    <p>Find which campus is close by you</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="right-box last">
+                <div class="image-container">
+                    <img src="resources/images/information-guest-lecture.jpg" class="pic" alt="">
+                </div>
+                <div class="text-container">
+                    <h2>Our guest lecture</h2>
+                    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="second-row">
         <h1>Start Learning</h1>
-        <div class="container">
-            <div class="image-container">
+        <div class="container desktop">
+            <div class="inner-container" onclick="location.href='#';" style="cursor: pointer;">
+                <div class="image-container">
+                    <img src="resources/images/course-software.jpg" alt="">
+                </div>
+                <h2>Software engineering</h2>
+                <p>COURSES</p>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
             </div>
-            <div class="image-container">
+            <div class="inner-container" onclick="location.href='#';" style="cursor: pointer;">
+                <div class="image-container">
+                    <img src="resources/images/course-computer-art.jpg" alt="">
+                </div>
+                <h2>Computer Art</h2>
+                <p>COURSES</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quos!</p>
             </div>
-            <div class="image-container">
+            <div class="inner-container" onclick="location.href='#';" style="cursor: pointer;">
+                <div class="image-container">
+                    <img src="resources/images/course-design.jpg" alt="">
+                </div>
+                <h2>Design</h2>
+                <p>COURSES</p>
+                <p>Lorem ipsum dolor sit amet.</p>
             </div>
-            <div class="image-container">
+            <div class="inner-container" onclick="location.href='#';" style="cursor: pointer;">
+                <div class="image-container">
+                    <img src="resources/images/course-data.jpg" alt="">
+                </div>
+                <h2>Data</h2>
+                <p>COURSES</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="image-container">
+            <div class="inner-container" onclick="location.href='#';" style="cursor: pointer;">
+                <div class="image-container">
+                    <img src="resources/images/course-business.jpg" alt="">
+                </div>
+                <h2>Business</h2>
+                <p>COURSES</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, repellat?</p>
             </div>
-            <div class="image-container">
+            <div class="inner-container" onclick="location.href='#';" style="cursor: pointer;">
+                <div class="image-container">
+                    <img src="resources/images/course-marketing.jpg" alt="">
+                </div>
+                <h2>Marketing</h2>
+                <p>COURSES</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+        </div>
+        <div class="mobile">
+            <div class="inner-container">
+                <h2>Software engineering</h2>
+            </div>
+            <div class="inner-container">
+                <h2>Computer Art</h2>
+            </div>
+            <div class="inner-container">
+                <h2>Design</h2>
+            </div>
+            <div class="inner-container">
+                <h2>Data</h2>
+            </div>
+            <div class="inner-container">
+                <h2>Business</h2>
+            </div>
+            <div class="inner-container">
+                <h2>Marketing</h2>
             </div>
         </div>
     </div>
     <div class="third-row">
         <h1>Thesis Exhibit</h1>
-        <div class="">
+        <div class="video-container">
+            <div class="video">
+                <video height="auto" controls="controls" preload="none" onclick="this.play()">
+                    <source type="video/mp4" src="resources/videos/thesis.mp4">
+                </video>
+                <h2>Reimagine urban</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam cupiditate dicta
+                    distinctio eligendi expedita ipsam perspiciatis porro quia sequi sint tempora, veniam voluptas
+                    voluptatum!"</p>
+            </div>
+            <div class="third-container">
+                <div class="right-box" id="first">
+                    <div class="image-container">
+                        <img src="resources/images/thesis-fisma.jpg" class="pic" alt="">
+                    </div>
+                    <div class="text-container">
+                        <h2>Fisma: Design and Prototype</h2>
+                        <p>Designer showcase of new prototype product</p>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="image-container">
+                        <img src="resources/images/thesis-now-and-then.jpg" class="pic" alt="">
+                    </div>
+                    <div class="text-container">
+                        <h2>Now and then</h2>
+                        <p>Research study about New York</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </main>
 <footer>
-    <p>© 2016  Colmar Academy. All Rights Reserve</p>
+    <p>© 2016 Colmar Academy. All Rights Reserve</p>
     <ul class="footer-links">
         <li><a href="#">Terms</a></li>
         <li><a href="#">Privacy</a></li>

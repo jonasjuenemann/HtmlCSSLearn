@@ -1,10 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <title>Forms</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>HTML Forms</title>
 </head>
 <body>
+<section id="overlay">
+    <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg"
+         alt="Davie's Burgers Logo" id="logo">
+    <hr>
+    <form action="/practice.html" method="POST">
+        <h1>Welcome to Davie's Burgers</h1>
+        <p>We're excited to have you here!
+        <h1>Login to start creating a burger!</h1>
+        <!--label muss mit for an id des input verknüpft sein-->
+        <label for="username">What do you want to eat?</label>
+        <br>
+        <input type="text" name="username" id="username">
+        <br>
 
+        <label for="user-pw">Password:</label>
+        <input type="password" id="user-pw" name="user-pw">
+
+        <label for="amount">How many patties would you like?</label>
+        <input id="amount" name="amount" type="number" step="1">
+
+        <section class="cooked">
+            <label for="doneness">How do you want your patty cooked</label>
+            <br>
+            <span>Rare</span>
+            <!--Add your code below-->
+            <input id="doneness" name="doneness" type="range" min="0" max="5" step="0.5">
+            <span>Well-Done</span>
+        </section>
+
+        <!--Checkboxes -->
+        <section class="toppings">
+            <span>What toppings would you like?</span>
+            <br>
+            <label for="cheese">cheese</label>
+            <!--Add your code below for the second checkbox-->
+            <input id="cheese" name="topping" type="checkbox" value="cheese">
+
+
+            <label for="lettuce">Lettuce</label>
+            <!--Add your code below for the second checkbox-->
+            <input id="lettuce" name="topping" type="checkbox" value="lettuce">
+
+            <label for="tomato">Tomato</label>
+            <!--Add your code below for the third checkbox-->
+            <input id="tomato" name="topping" type="checkbox" value="tomato">
+        </section>
+
+        <!--Radio Buttons-->
+        <section class="cheesy">
+            <span>Would you like to add cheese?</span>
+            <br>
+            <!--Add your first radio button below-->
+            <input type="radio" id="yes" name="cheese" value="yes">
+            <label for="yes">Yes</label>
+            <!--Add your second radio button below-->
+            <input type="radio" id="no" name="cheese" value="no">
+            <label for="no">No</label>
+        </section>
+
+        <!-- Selector -->
+        <section class="bun-type">
+            <label for="bun">What type of bun would you like?</label>
+            <!--Add your code below-->
+            <select id="bun" name="bun">
+                <option value="sesame">sesame</option>
+                <option value="potato">potato</option>
+                <option value="salad">Salad</option>
+            </select>
+        </section>
+
+        <!-- Datalist -->
+        <section class="sauce-selection">
+            <label for="sauce">What type of sauce would you like?</label>
+            <input list="sauces" id="sauce" name="sauce">
+            <datalist id="sauces">
+                <option value="ketchup"></option>
+                <option value="mayo"></option>
+                <option value="aioli"></option>
+            </datalist>
+        </section>
+
+        <section class="extra-info">
+            <label for="extra">Anything else you want to add?</label>
+            <br>
+            <textarea id="extra" name="extra" rows="3" cols="40">
+            DefaultText
+        </textarea>
+        </section>
+
+        <section class="submission">
+            <input type="submit" value="Submit">
+        </section>
+
+        <!-- Form Validation -->
+        <!-- required und min/max -->
+        <section class="overlay">
+            <h1>Guess the right number!</h1>
+            <form action="check.html" method="GET">
+                <!--Add a required attribute to the input element-->
+                <label for="guess">Enter a number between 1-10:</label>
+                <br>
+                <input type="number" name="guess" id="guess" required min="1" max="10">
+                <br>
+                <input type="submit" id="submission" value="Submit">
+            </form>
+        </section>
+
+        <!-- min/max Länge für Text, pattern limitiert zulässige Chars
+        <section class="overlay">
+            <h1>Sign Up</h1>
+            <p>Create an account:</p>
+            <form action="submission.html" method="GET">
+                <label for="username">Username:</label>
+                <br>
+                <input id="username" name="username" type="text" minlength="3" maxlength="15" required pattern="[a-zA-Z0-9]+">
+                <br>
+                <label for="pw">Password:</label>
+                <br>
+                <input id="pw" name="pw" type="password" minlength="8" maxlength="15" required>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        -->
+
+    </form>
+</section>
 </body>
 </html>
